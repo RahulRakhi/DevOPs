@@ -1,6 +1,8 @@
 import streamlit as st
 import subprocess
 import os
+import docker
+
 # ------------------ Docker Command Data ------------------
 docker_commands = {
     "docker build": {
